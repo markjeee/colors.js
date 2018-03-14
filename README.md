@@ -90,7 +90,7 @@ console.log(colors.trap('Run the trap')); // Drops the bass
 
 ```
 
-I prefer the first way. Some people seem to be afraid of extending `String.prototype` and prefer the second way. 
+I prefer the first way. Some people seem to be afraid of extending `String.prototype` and prefer the second way.
 
 If you are writing good code you will never have an issue with the first approach. If you really don't want to touch `String.prototype`, the second usage will not touch `String` native object.
 
@@ -182,3 +182,7 @@ console.log('test'.custom);
 ```
 
 *Protip: There is a secret undocumented style in `colors`. If you find the style you can summon him.*
+
+## Custom notes
+
+This is a custom build, and only available from `npm.fury.io/markjeee`.
